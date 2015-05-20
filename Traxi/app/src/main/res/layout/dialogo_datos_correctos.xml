@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/color_fondos" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/dialogo_datos_correctos_ll_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/indicator_dialg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager_dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dialogo_datos_correctos_btn_noViajo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight=".5"
+                android:background="@drawable/selector_btn_generic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/mapa_inicio_de_viaje_no"
+                android:textColor="@drawable/selector_txt_boton_redondo" />
+
+            <Button
+                android:id="@+id/dialogo_datos_correctos_btn_iniciar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight=".5"
+                android:background="@drawable/selector_btn_generic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/mapa_inicio_de_viaje"
+                android:textColor="@drawable/selector_txt_boton_redondo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

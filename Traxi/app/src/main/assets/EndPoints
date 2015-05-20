@@ -1,0 +1,81 @@
+Muestra de los end points
+
+					
+-----------------------------------------END POINTS-----------------------------------------
+Clase: Traxi.java
+Descripcion: En caso de la aplicacion falle enbvia un reporte de fallo
+metodo: GET
+URL: "http://datos.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addlog"							
+
+							
+-------------------------------------------------------------------------------
+
+Enviar foto para OCR
+Metodo POST
+URL: "http://codigo.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=identificaplaca"
+add foto (foto de la placa, esta debe estar en escala a grises)
+
+-------------------------------------------------------------------------------
+
+
+Comentarios de una placa
+Metodo GET
+URL: "http://datos.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=getcomentario&placa="+placa
+
+
+---------------------------------------------------------------------------------
+
+Verifica los adeudos de un taxi
+Metodo GET
+URL: "http://dev.datos.labplc.mx/movilidad/vehiculos/"+placa+".json"
+
+---------------------------------------------------------------------------------
+Datos de un taxi si esta en la revista vehicular
+Metodo GET
+URL: "http://mikesaurio.dev.datos.labplc.mx/movilidad/taxis/"+placa+".json"
+
+
+---------------------------------------------------------------------------------
+Obtener Distancia y tiempo de un trayecto 
+Metodo GET
+URL: "http://codigo.labplc.mx/~mikesaurio/taxi.php?act=chofer&type=getGoogleData&lato="
+								+latfin+"&lngo="+lonfin
+								+"&latd="+latini+"&lngd="+lonini+"&filtro=velocidad"
+
+
+---------------------------------------------------------------------------------
+Obtener las coordenadas de un lugar
+Metodo GET
+URL: "http://maps.googleapis.com/maps/api/geocode/json?address="+destino+"&sensor=true"
+
+
+---------------------------------------------------------------------------------
+Calificar el servicio
+Metodo GET
+URL: "http://datos.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addcomentario"
+							+"&id_usuario="+id_usuario
+							+"&calificacion="+Scalificacion
+							+"&comentario="+Scomentario
+							+"&placa="+placa
+							+"&id_face="+face
+							+"&pointinilat="+latitud_inicial
+							+"&pointinilon="+longitud_inicial
+							+"&pointfinlat="+latitud
+							+"&pointfinlon="+longitud
+							+"&horainicio="+horaInicio
+							+"&horafin="+finViaje;
+							
+--------------------------------------------------------------------------------
+Viaje no tomado
+Metodo GET
+URL:"http://datos.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addnoviaje"
+						+"&id_usuario="+uuid
+						+"&id_face="+face
+						+"&calificacion_final="Calificacion_final
+						+"&placa="+placa
+						+"&revista="+revista
+						+"&infraccion="+infracciones
+						+"&anio="+autoBean.anio
+						+"&verificacion="+verificacion
+						+"&tenencia="+tenencia;"
+							

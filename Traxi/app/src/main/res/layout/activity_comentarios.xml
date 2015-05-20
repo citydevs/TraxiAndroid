@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adeudos" >
+
+    <LinearLayout
+        android:id="@+id/comentarios_ll_estrellas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/comentarios_tv_cuantos" >
+
+        <ImageView
+            android:id="@+id/rating1_comentarios"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_launcher_star1" />
+
+        <ImageView
+            android:id="@+id/rating2_comentarios"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_launcher_star1" />
+
+        <ImageView
+            android:id="@+id/rating3_comentarios"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_launcher_star1" />
+
+        <ImageView
+            android:id="@+id/rating4_comentarios"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_launcher_star1" />
+
+        <ImageView
+            android:id="@+id/rating5_comentarios"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_launcher_star1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/comentarios_tv_cinco_estrellas"
+        android:layout_below="@+id/comentarios_tv_cinco_estrellas"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".75" 
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/adeudos_sv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="0.95"
+                android:overScrollMode="never" >
+
+                <LinearLayout
+                    android:id="@+id/comentarios_ll_contenedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gris_obscuro"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/comentarios_titulo_tv_amigos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/adeudos_titulo_tv_amigos" />
+
+        <HorizontalScrollView
+            android:id="@+id/comentarios_svh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:overScrollMode="never"
+            android:padding="1dp" >
+
+            <LinearLayout
+                android:id="@+id/comentarios_ll_contenedor_fotos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/comentarios_btn_facebook"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/selector_btn_generic_face"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/mitaxiregistermanually_btn_facebook"
+                    android:textColor="@drawable/selector_txt_boton_redondo_face" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comentarios_tv_cuantos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/comentarios_ll_estrellas"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/comentarios_ll_estrellas"
+        android:gravity="center|left"
+        android:paddingRight="5dp"
+        android:text="(0)"
+        android:textColor="@color/color_vivos" />
+
+    <TextView
+        android:id="@+id/comentarios_tv_cinco_estrellas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/comentarios_ll_estrellas"
+        android:layout_marginBottom="5dp"
+        android:gravity="right"
+        android:paddingRight="5dp"
+        android:text=""
+        android:textColor="@color/color_vivos" />
+
+</RelativeLayout>

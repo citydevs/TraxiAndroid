@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient_drawable1"
+    android:gravity="center"
+    tools:context=".RegistroContactosEmergenciaActivity" >
+
+    <TextView
+        android:id="@+id/mitaxiregistermanually_tv_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/mitaxiregister_name"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:id="@+id/mitaxiregistermanually_sv_container_infouser_emer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_below="@+id/mitaxiregistermanually_iv_ayuda"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/mitaxiregistermanually_ll_contactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="3dp" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mitaxiregistermanually_tv_agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/Registro_manual_agregar_contacto"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:background="@drawable/marco"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/mitaxiregistermanually_tv_paranoico_texto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:layout_marginLeft="3dp"
+            android:gravity="left|center"
+            android:text="@string/panico_activar_modo_paranoico" />
+
+        <CheckBox
+            android:id="@+id/mitaxiregistermanually_cv_paranoico"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:button="@drawable/checkbox_selector"
+            android:gravity="left|center" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mitaxiregistermanually_iv_ayuda"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/mitaxiregistermanually_sv_container_infouser_emer"
+        android:layout_below="@+id/mitaxiregistermanually_tv_label"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_help" />
+
+    <Button
+        android:id="@+id/mitaxiregistermanually_btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mitaxiregistermanually_iv_ayuda"
+        android:layout_alignRight="@+id/mitaxiregistermanually_tv_label"
+        android:background="@drawable/selector_btn_generic"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/mitaxiregister_validar_contactos_guardar"
+        android:textColor="@drawable/selector_txt_boton_redondo" />
+
+</RelativeLayout>

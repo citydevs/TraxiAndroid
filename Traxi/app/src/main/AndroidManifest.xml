@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.citydevs.traxi">
+
+    <permission
+        android:name="mx.citydevs.traxi.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="mx.citydevs.traxi.maps.googlev2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="mx.citydevs.traxi.Traxi"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBZkCnv9xCRe8beZeJqWXAmKP9Y5cFEpRg" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="mx.citydevs.traxi.TraxiMainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.BuscaPlacaTexto"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_busca_placa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.BuscaPlacaFoto"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_busca_placa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.paginador.DatosAuto"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_busca_placa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.registro.RegistroContactosEmergenciaActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_busca_placa"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <!--<activity
+            android:name="mx.citydevs.traxi.buscarplaca.paginador.paginas.Datos"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_datos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.paginador.paginas.Adeudos"
+            android:label="@string/title_activity_adeudos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.paginador.paginas.Comentarios"
+            android:label="@string/title_activity_comentarios"
+            android:screenOrientation="portrait" >
+        </activity>-->
+        <activity
+            android:name="mx.citydevs.traxi.configuracion.UserSettingActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <service android:name="mx.citydevs.traxi.services.ServicioGeolocalizacion" />
+
+        <activity
+            android:name="mx.citydevs.traxi.tracking.map.Mapa_tracking"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.califica.Califica_taxi"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <receiver android:name="mx.citydevs.traxi.panic.MyReceiver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWEROFF"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="mx.citydevs.traxi.tracking.Activity_null"
+            android:label="@string/title_activity_activity_null" >
+        </activity>
+        <!--<activity
+            android:name="mx.citydevs.traxi.buscarplaca.SendFoto"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_busca_placa"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>-->
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_id" />
+
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.tips.Tips_activity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.buscarplaca.emergencia.Emergencia_activity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.dialogos.Descripcion_Escudo"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="mx.citydevs.traxi.historico.Historico_viajes"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_historico_viajes"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+    </application>
+</manifest>

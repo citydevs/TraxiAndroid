@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/action_settings" >
+        
+         <Preference
+            android:key="pref_static_field_key"
+            android:selectable="false"
+            android:summary="@string/preferencias_version_titulo"
+            android:title="@string/preferencias_version" />
+
+          <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefBusquedaFina"
+            android:summary="@string/pref_busqueda_avanzada_summary"
+            android:title="@string/pref_busqueda_avanzada" >
+        </CheckBoxPreference>
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSendReport"
+            android:summary="@string/pref_send_report_summary"
+            android:title="@string/pref_send_report" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
