@@ -2,249 +2,249 @@
 <items version="2" >
 
     <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-efc30982f3ea0722c1a066bcbba79fb912e7a0cc.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-fcf5a22116d01ca0f0a9d02d4680dd37f600d62f.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-0449cef17d57209706f83e3f4cc4d7745e044982.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-ea3a4bbfb1afe9bb19d11bc938264d72b9855351.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/httpcore-4.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/httpcore-4.3-6585d456c428f0c623fa8c858584f069baba7e2e.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-11851a0f2805c9e8cb01fee7aa6050577d10b2f6.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-8d1da5fae12053038da7b806eb5e94d6cc7a124d.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-84b584901622947b0044193ec9d0fccd972fedf6.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/apache-mime4j-core-0.7.2.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/apache-mime4j-core-0.7.2-e7a47989e6c93bdc8a3e25c1f2e2050e983d72dd.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-230746a4cec56b004f1187a36b7753ea6a2e44e1.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="c8414f03ff9e5b045f185921c9bc42914c906458">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-bac27823b7579fa77f4cd2bc42fdd42ec0cd8ca2.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-6dbfefbc0b30cf21943a4e23fc4da4f084f13c73.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-036154ed57fe3c1d75f725cc0abafe6a540eeec5.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-2fbf66a209105ad87c8b74fe1f6a14a90ef0b10b.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-043296eb52b6dd507028aed53146a22d5b411558.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-534589df710639dac0ada2794f169262e6056dfa.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-a790ea364c1bc4f800f40d1ab5e67c41bdc42790.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-989f123e75877537a3e02225a7c38c28b4749a3a.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-352e9d22068c1d0d10ed4637cb28d37739622dbd.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/acra-4.5.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/acra-4.5.0-b4da907632b120f77850ed02032b87f127a0ecdb.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-648b011705ba1923da0c45b5a1df0dbec85bf31a.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/activation.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/activation-2dc7997d4d902f236bc3e2c32f5335b7de0ca36d.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-2a8ca2130107ba937bf21a72a0219239bf588944.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/httpclient-4.3.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/httpclient-4.3.1-2096d53bbec9019f24e1cef392f53f4dd93079d1.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-bcdbf3fc8aaa2b54003f076ca222b572b6847e7d.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-979e507b9b6d93833fd348afbec1ae1110b780f0.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-0475e255bf2a1a575f73887ba1cec196ebae76a1.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/additionnal.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/additionnal-d789856907bb4eeb38ecc414e57257ecca70af44.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/httpmime-4.3.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/httpmime-4.3.1-dedc1d6ddd6bac1fc1bfd5b7b8c725047eb55d1e.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Developer/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-65965e4c1776e94df204157e91b1609ea2da0171.jar" />
-    </item>
-    <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/socketio.jar"
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/socketio.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="08b6263f0a02ea3a4ffda9226a021fb3504c4445">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/socketio-af8cd2aaf61e075d50379feccbcd66c8ad35f9ac.jar" />
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/socketio-79ba2950457c7c4c43dba87a536c7d8e53b5da27.jar" />
     </item>
     <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/libs/mail.jar"
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-6dcd04254b84867bc4a93a7d066b7c1c482c6b58.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-fa7276905f9a43762b7696eda5185cb15b235fed.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-aecc57358308a9cb65965cbd1d1ac53c9c6a5296.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c8414f03ff9e5b045f185921c9bc42914c906458">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-748c232f41d35e4f4e3e936bda62f392d3ac60e7.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/mail.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="428e267abff0d10802ccde86b915da2c20471160">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/mail-49323e91b8f39214bc755f20096d46d121288200.jar" />
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/mail-6328dfe9ab27f29cfba7260f0afffd913babde34.jar" />
     </item>
     <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-d582ad8b8f228fbfc3be0d8a07c32bfddf76073e.jar" />
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-98d75a426ca9878d57c33bec50a3e00d2ce8aa99.jar" />
     </item>
     <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-96b5bfce3f0dee33839886413e53b8a69f95ab42.jar" />
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-8e0f914264655f6cc6d79755e4fbaa2a4cb56ada.jar" />
     </item>
     <item
-        jar="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/apache-mime4j-core-0.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/apache-mime4j-core-0.7.2-6aeedb2ead06ae4b6694223b4f0cf8939d3b71bb.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/additionnal.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/additionnal-3abdc9362c8917ded3ecb5b1db29665c0f50e14e.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-06256799129f9e55cac19d06e4fd3e55a2cbaf4e.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-cc03b6041b9a840a5d63bde4cd109a5cea0479ae.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-198a7281355cc7fd2132e5b5f764a6a3fde4a991.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/httpcore-4.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/httpcore-4.3-e48ec7212e8e3d02d21144fd5069f611bb6cf00f.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-64b9a9bc896abedd44c185aeaf30b1eb0e854ac3.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-399cefd24ffcc324b5edfc1c789e598446c329b0.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/activation.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/activation-2f8cbb2ef961b0696f4a0db400a4ff4df0be6cf0.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Users/zace3d/Documents/workspace_intellij/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-495954a0bcc48d6a0b6926615d3d46831cbb5602.jar" />
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-61cb5d1c4182e670a048468201d5eef53be836ae.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-3424f216babc62462646609c1b87440002588e8c.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-2bf69517315ed7aca5cdf32f8f69e74ebe03f08f.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-a5c287d9f0e7c4c8f57cbad81c8ec2519981f257.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-c980a439fc359fdfe582f3a0a90d17578d533e5f.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-ae10b081c9c84a9525d05e79be56a4e76a1898b8.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-55ff7d0f330bc3c6bebebddd8b472cc5fe1f27e7.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/acra-4.5.0-733254b13f9ee534cc8f3f9711f3388f3000b773.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-6ab6fb39a4d97d4a46af5f344c0b067333dc556a.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-b38c8e928f8716bd27d96719c25aa586775ba3bd.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-aa6ed77725debab0165314d8ea92296924d4965a.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/httpmime-4.3.1-83029af9253563be6cd7dc88785abd71517b4b1b.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/libs/httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/httpclient-4.3.1-32d201765b7778017a869f19add3d87ea458bd9b.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-2f1dadf41d8877da4b3eb49c91f8c1143728a3f5.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-9809205963e893cd8afa2fdb3eb133b6e138b54e.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-924ff32987de60d495cd86ea2cc61b556ebd4916.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/classes-738ede8f885bff1a52c0289f428d9b3bd237eaf5.jar" />
+    </item>
+    <item
+        jar="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/mikesaurio/Documents/adt-bundle-mac-x86_64-20130917/workspace/Traxi/Traxi/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-2911287a6f27bab45cf335548427fabb2719740a.jar" />
     </item>
 
 </items>
