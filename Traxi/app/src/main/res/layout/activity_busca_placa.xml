@@ -37,17 +37,6 @@
             android:text="@string/busca_placa_btn_tips"
             android:textColor="@color/color_vivos"
             android:textSize="12sp" />
-
-        <Button
-            android:id="@+id/activity_buscar_placa_btn_foto"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight=".33"
-            android:background="@drawable/marco"
-            android:drawableTop="@drawable/ic_launcher_foto"
-            android:text="@string/busca_placa_btn_tomarfoto"
-            android:textColor="@color/color_vivos"
-            android:textSize="12sp" />
     </LinearLayout>
 
     <LinearLayout

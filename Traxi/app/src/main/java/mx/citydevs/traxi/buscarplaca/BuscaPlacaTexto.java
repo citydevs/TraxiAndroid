@@ -183,7 +183,7 @@ public class BuscaPlacaTexto extends Activity implements OnClickListener , OnTou
 			}
 		});
 		
-		Button activity_buscar_placa_btn_foto = (Button) findViewById(R.id.activity_buscar_placa_btn_foto);
+		/*Button activity_buscar_placa_btn_foto = (Button) findViewById(R.id.activity_buscar_placa_btn_foto);
 		activity_buscar_placa_btn_foto.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -191,7 +191,7 @@ public class BuscaPlacaTexto extends Activity implements OnClickListener , OnTou
 				startActivityForResult(intentManually,RESULT_FOTO);
 			}
 		});
-		
+		*/
 		Button activity_buscar_placa_btn_tips = (Button) findViewById(R.id.activity_buscar_placa_btn_tips);
 		activity_buscar_placa_btn_tips.setOnClickListener(new View.OnClickListener() {
 			@Override
