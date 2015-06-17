@@ -14,6 +14,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -65,14 +66,7 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
 
     public final String TAG = this.getClass().getSimpleName();
 
-    //private int PUNTOS=0;
-    private int PUNTOS_APP = 95;
     private int PUNTOS_USUARIO = 0;
-    private int PUNTOS_REVISTA = 50;
-    private int PUNTOS_INFRACCIONES = 25;
-    private int PUNTOS_TENENCIA = 5;
-    private int PUNTOS_VERIFICACION = 5;
-    private int PUNTOS_ANIO_VEHICULO = 10;
     private AutoBean autoBean;
     private String placa;
     private int imagen_verde = 1;
@@ -259,167 +253,47 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
      * metodo que verifica los datos de adeudos de un taxi
      */
 
-    private void datosVehiculo(boolean esta_en_revista) {
+    private void datosVehiculo(String vehiculo, String tiene_tenencia, String tiene_infracciones,String tiene_verificacion,String modelo_optimo) {
         try {
-            String Sjson = Utils.doHttpConnection("http://datos.labplc.mx/movilidad/vehiculos/" + placa + ".json");
-            JSONObject json = (JSONObject) new JSONTokener(Sjson).nextValue();
-            JSONObject json2 = json.getJSONObject("consulta");
-            JSONObject jsonResponse = new JSONObject(json2.toString());
-            JSONObject sys = jsonResponse.getJSONObject("tenencias");
 
-            if (sys.getString("tieneadeudos").toString().equals("0")) {
+            autoBean.setMarca(vehiculo);
+            if (Boolean.parseBoolean(tiene_tenencia)) {
                 autoBean.setDescripcion_tenencia(getResources().getString(R.string.sin_adeudo_tenencia));
                 autoBean.setImagen_teencia(imagen_verde);
             } else {
                 autoBean.setDescripcion_tenencia(getResources().getString(R.string.con_adeudo_tenencia));
                 autoBean.setImagen_teencia(imagen_rojo);
-                PUNTOS_APP -= PUNTOS_TENENCIA;
             }
 
-            JSONArray cast = jsonResponse.getJSONArray("infracciones");
-            String situacion;
-            boolean hasInfraccion = false;
-            for (int i = 0; i < cast.length(); i++) {
-                JSONObject oneObject = cast.getJSONObject(i);
-                try {
-                    situacion = (String) oneObject.getString("situacion");
-                    if (!situacion.equals("Pagada")) {
-                        hasInfraccion = true;
-                    }
-
-                } catch (JSONException e) {
-                    DatosLogBean.setDescripcion(Utils.getStackTrace(e));
-                }
-            }
-            if (hasInfraccion) {
+            if (Boolean.parseBoolean(tiene_infracciones)) {
                 autoBean.setDescripcion_infracciones(getResources().getString(R.string.tiene_infraccion));
                 autoBean.setImagen_infraccones(imagen_rojo);
-                PUNTOS_APP -= PUNTOS_INFRACCIONES;
             } else {
                 autoBean.setDescripcion_infracciones(getResources().getString(R.string.no_tiene_infraccion));
                 autoBean.setImagen_infraccones(imagen_verde);
             }
-            JSONArray cast2 = jsonResponse.getJSONArray("verificaciones");
-            if (cast2.length() == 0) {
+
+            if (!Boolean.parseBoolean(tiene_verificacion)) {
                 autoBean.setDescripcion_verificacion(getResources().getString(R.string.no_tiene_verificaciones));
                 autoBean.setImagen_verificacion(imagen_rojo);
-                PUNTOS_APP -= PUNTOS_VERIFICACION;
+            }else{
+                autoBean.setDescripcion_verificacion(getResources().getString(R.string.tiene_infraccion));
+                autoBean.setImagen_verificacion(imagen_verde);
             }
-            Date lm = new Date();
-            String lasmod = new SimpleDateFormat("yyyy-MM-dd").format(lm);
-            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-            Boolean yaValide = true;
-            for (int i = 0; i < cast2.length(); i++) {
-                JSONObject oneObject = cast2.getJSONObject(i);
-                try {
-                    if (!esta_en_revista && yaValide) {
-                        autoBean.setMarca((String) oneObject.getString("marca"));
-                        autoBean.setSubmarca((String) oneObject.getString("submarca"));
-                        autoBean.setAnio((String) oneObject.getString("modelo"));
-
-                        autoBean.setDescripcion_revista(getResources().getString(R.string.sin_revista));
-                        autoBean.setImagen_revista(imagen_rojo);
-
-                        Calendar calendar = Calendar.getInstance();
-                        int thisYear = calendar.get(Calendar.YEAR);
-
-                        if (thisYear - Integer.parseInt(autoBean.getAnio()) <= 10) {
-                            autoBean.setDescripcion_vehiculo(getResources().getString(R.string.carro_nuevo) + " " + getResources().getString(R.string.Anio) + " " + autoBean.getAnio());
-                            autoBean.setImagen_vehiculo(imagen_verde);
-                        } else {
-                            autoBean.setDescripcion_vehiculo(getResources().getString(R.string.carro_viejo) + " " + getResources().getString(R.string.Anio) + " " + autoBean.getAnio());
-                            autoBean.setImagen_vehiculo(imagen_rojo);
-                            PUNTOS_APP -= PUNTOS_ANIO_VEHICULO;
-                        }
-                        yaValide = false;
-                    }
-                    Date date1 = formatter.parse(lasmod);
-                    Date date2 = formatter.parse(oneObject.getString("vigencia").toString());
-                    int comparison = date2.compareTo(date1);
-                    if ((comparison == 1 || comparison == 0) && !oneObject.getString("resultado").toString().equals("RECHAZO")) {
-                        autoBean.setDescripcion_verificacion(getResources().getString(R.string.tiene_verificaciones) + " " + oneObject.getString("resultado").toString());
-                        autoBean.setImagen_verificacion(imagen_verde);
-                        hasVerificacion = true;
-                        break;
-                    } else {
-                        autoBean.setDescripcion_verificacion(getResources().getString(R.string.no_tiene_verificaciones));
-                        autoBean.setImagen_verificacion(imagen_rojo);
-                        hasVerificacion = false;
-
-                    }
-
-                } catch (JSONException e) {
-                    DatosLogBean.setDescripcion(Utils.getStackTrace(e));
-                } catch (ParseException e) {
-                    DatosLogBean.setDescripcion(Utils.getStackTrace(e));
-                }
+            if(!Boolean.parseBoolean(modelo_optimo)){
+                autoBean.setDescripcion_vehiculo(getResources().getString(R.string.carro_viejo));
+                autoBean.setImagen_vehiculo(imagen_rojo);
+            }else{
+                autoBean.setDescripcion_vehiculo(getResources().getString(R.string.carro_nuevo));
+                autoBean.setImagen_vehiculo(imagen_verde);
             }
-            if (!hasVerificacion) {
-                PUNTOS_APP -= PUNTOS_VERIFICACION;
-            }
-
-        } catch (JSONException e) {
+        } catch (Exception e) {
             DatosLogBean.setDescripcion(Utils.getStackTrace(e));
         }
 
     }
 
 
-    /**
-     * metodo que indica si esta una placa en la revista vehicular
-     *
-     * @return true (si esta en la revista vehicular)
-     * false (si algo falla o no esta en la revista)
-     */
-    private boolean estaEnRevista() {
-        try {
-            String Sjson = Utils.doHttpConnection("http://datos.labplc.mx/movilidad/taxis/" + placa + ".json");
-            String marca = "", submarca = "", anio = "";
-
-            JSONObject json = (JSONObject) new JSONTokener(Sjson).nextValue();
-            JSONObject json2 = json.getJSONObject("Taxi");
-            JSONObject jsonResponse = new JSONObject(json2.toString());
-            JSONObject sys = jsonResponse.getJSONObject("concesion");
-
-            if (sys.length() > 0) {
-
-                try {
-                    marca = (String) sys.getString("marca");
-                    autoBean.setMarca(marca);
-                    submarca = (String) sys.getString("submarca");
-                    autoBean.setSubmarca(submarca);
-                    anio = (String) sys.getString("anio");
-                    autoBean.setAnio(anio);
-
-                    autoBean.setDescripcion_revista(getResources().getString(R.string.con_revista));
-                    autoBean.setImagen_revista(imagen_verde);
-
-                    Calendar calendar = Calendar.getInstance();
-                    int thisYear = calendar.get(Calendar.YEAR);
-
-                    if (thisYear - Integer.parseInt(anio) <= 10) {
-                        autoBean.setDescripcion_vehiculo(getResources().getString(R.string.carro_nuevo) + " " + getResources().getString(R.string.Anio) + " " + anio);
-                        autoBean.setImagen_vehiculo(imagen_verde);
-                    } else {
-                        autoBean.setDescripcion_vehiculo(getResources().getString(R.string.carro_viejo) + " " + getResources().getString(R.string.Anio) + " " + anio);
-                        autoBean.setImagen_vehiculo(imagen_rojo);
-                        PUNTOS_APP -= PUNTOS_ANIO_VEHICULO;
-                    }
-                    return true;
-
-                } catch (JSONException e) {
-                    return false;
-                }
-            } else {
-                return false;
-            }
-
-        } catch (JSONException e) {
-            DatosLogBean.setDescripcion(Utils.getStackTrace(e));
-            return false;
-        }
-
-    }
 
 
     @Override
@@ -467,20 +341,31 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
                 DatosAuto.this.pager = (ViewPager) DatosAuto.this.findViewById(R.id.pager_dialog);
                 DatosAuto.this.pager.setOffscreenPageLimit(4);
                 autoBean = new AutoBean();
-
+                String getInfoTraxi = Utils.doHttpConnection("https://traxi.herokuapp.com/cdmx/api/taxis/" + placa);
+                JSONObject jObj = new JSONObject(getInfoTraxi);
+                String vehiculo = jObj.getString("vehiculo");
+                String tiene_tenencia = jObj.getString("tiene_tenencia");
+                String tiene_infracciones = jObj.getString("tiene_infracciones");
+                String tiene_verificacion = jObj.getString("tiene_verificacion");
+                String modelo_optimo = jObj.getString("modelo_optimo");
+                String tiene_revista = jObj.getString("tiene_revista");
+                String calificacion_escudo = jObj.getString("calificacion_escudo");
                 autoBean.setPlaca(placa);
 
-                if (!estaEnRevista()) {
-                    PUNTOS_APP -= PUNTOS_REVISTA;
+                if (!Boolean.parseBoolean(tiene_revista)) {
                     autoBean.setDescripcion_revista(getResources().getString(R.string.sin_revista));
                     autoBean.setImagen_revista(imagen_rojo);
                     hasRevista = false;
+                }else{
+                    autoBean.setDescripcion_revista(getResources().getString(R.string.con_revista));
+                    autoBean.setImagen_revista(imagen_verde);
+                    hasRevista = true;
                 }
 
-                datosVehiculo(hasRevista);
-                cargaComentarios();
+                datosVehiculo(vehiculo, tiene_tenencia,tiene_infracciones,tiene_verificacion, modelo_optimo);
+               // cargaComentarios();
 
-                int PUNTOS = (PUNTOS_APP + PUNTOS_USUARIO);
+                int PUNTOS = (Integer.parseInt(calificacion_escudo) + PUNTOS_USUARIO);
                 if (PUNTOS <= 25) {
                     autoBean.setDescripcion_calificacion_app(getResources().getString(R.string.texto_calificacion_25));
                 } else if (PUNTOS <= 49 && PUNTOS > 25) {
@@ -495,7 +380,7 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
                     autoBean.setDescripcion_calificacion_app(getResources().getString(R.string.texto_calificacion_100));
                 }
                 autoBean.setCalificacion_final(PUNTOS);
-                autoBean.setCalificaion_app(PUNTOS_APP);
+                autoBean.setCalificaion_app(Integer.parseInt(calificacion_escudo));
 
             } catch (Exception e) {
                 DatosLogBean.setDescripcion(Utils.getStackTrace(e));
