@@ -185,9 +185,20 @@ public class Califica_taxi extends Activity {
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}
-					
-					 
-					String url= "http://codigo.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addcomentario"
+
+                    String url="https://traxi.herokuapp.com/cdmx/api/taxis/new?" +
+                            "id_usuario="+face+"&" +
+                            "calificacion="+Scalificacion+
+                            "&comentario="+Scomentario+
+                            "&placa="+placa+
+                            "&latitud_inicial="+ServicioGeolocalizacion.latitud_inicial+
+                            "&longitud_inicial="+ServicioGeolocalizacion.longitud_inicial+
+                            "&latitud="+ServicioGeolocalizacion.latitud+
+                            "&longitud="+ServicioGeolocalizacion.longitud+
+                            "&horaInicio="+ServicioGeolocalizacion.horaInicio+
+                            "&horafin="+finViaje;
+
+                   /* String url= "http://codigo.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addcomentario"
 							+"&id_usuario="+id_usuario
 							+"&calificacion="+Scalificacion
 							+"&comentario="+Scomentario
@@ -198,7 +209,7 @@ public class Califica_taxi extends Activity {
 							+"&pointfinlat="+ServicioGeolocalizacion.latitud
 							+"&pointfinlon="+ServicioGeolocalizacion.longitud
 							+"&horainicio="+ServicioGeolocalizacion.horaInicio
-							+"&horafin="+finViaje;
+							+"&horafin="+finViaje;*/
 
 					Utils.doHttpConnection(url);
 					

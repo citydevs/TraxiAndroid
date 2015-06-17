@@ -350,6 +350,7 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
                 String modelo_optimo = jObj.getString("modelo_optimo");
                 String tiene_revista = jObj.getString("tiene_revista");
                 String calificacion_escudo = jObj.getString("calificacion_escudo");
+
                 autoBean.setPlaca(placa);
 
                 if (!Boolean.parseBoolean(tiene_revista)) {
@@ -363,7 +364,7 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
                 }
 
                 datosVehiculo(vehiculo, tiene_tenencia,tiene_infracciones,tiene_verificacion, modelo_optimo);
-                cargaComentarios();
+             //   cargaComentarios();
 
                 int PUNTOS = (Integer.parseInt(calificacion_escudo) + PUNTOS_USUARIO);
                 if (PUNTOS <= 25) {

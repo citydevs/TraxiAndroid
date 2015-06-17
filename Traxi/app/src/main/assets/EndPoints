@@ -64,7 +64,8 @@ URL: "http://datos.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addcomentari
 							+"&pointfinlon="+longitud
 							+"&horainicio="+horaInicio
 							+"&horafin="+finViaje;
-							
+
+cdmx/api/taxis/new?id_usuario=0&calificacion=5&comentario=Bueno&placa=A05601&latitud_inicial=0.0&longitud_inicial=0.0&latitud=19.0&longitud=-99.0&horaInicio=9&horafin=10
 --------------------------------------------------------------------------------
 Viaje no tomado
 Metodo GET
