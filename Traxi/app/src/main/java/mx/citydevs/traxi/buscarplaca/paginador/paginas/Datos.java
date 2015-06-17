@@ -89,9 +89,7 @@ public class Datos extends View {
 		
 		container = (LinearLayout)view.findViewById(R.id.Thermometer_Container);
 	
-		marca.setText(autoBean.getMarca()+", ");
-		marca.append(autoBean.getSubmarca()+", ");
-		marca.append(autoBean.getAnio());
+		marca.setText(autoBean.getMarca()+"");
 		
 		if(marca.getText().toString().equals(", , ")){
 			marca.setText(getResources().getString(R.string.adeudos_row_no_hay_datos));

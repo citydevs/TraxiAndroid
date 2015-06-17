@@ -363,7 +363,7 @@ public class DatosAuto extends FragmentActivity implements OnClickListener {
                 }
 
                 datosVehiculo(vehiculo, tiene_tenencia,tiene_infracciones,tiene_verificacion, modelo_optimo);
-               // cargaComentarios();
+                cargaComentarios();
 
                 int PUNTOS = (Integer.parseInt(calificacion_escudo) + PUNTOS_USUARIO);
                 if (PUNTOS <= 25) {

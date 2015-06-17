@@ -46,21 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuscaPlacaTexto.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/BuscaPlacaTexto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-42.115383" vertical-offset="0" max-vertical-offset="8340">
-              <caret line="120" column="38" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatosAuto.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DatosAuto.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/DatosAuto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3055553" vertical-offset="5694" max-vertical-offset="7935">
-              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state vertical-scroll-proportion="128.42308" vertical-offset="5244" max-vertical-offset="7935">
+              <caret line="130" column="86" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3562#3611#0" expanded="true" />
@@ -76,25 +66,58 @@
                 <element signature="e#13452#13517#0" expanded="true" />
                 <element signature="e#15214#15260#0" expanded="true" />
                 <element signature="e#15439#15485#0" expanded="true" />
-                <element signature="e#15941#15997#0" expanded="true" />
-                <element signature="e#16119#16175#0" expanded="true" />
-                <element signature="e#16297#16353#0" expanded="true" />
-                <element signature="e#16475#16531#0" expanded="true" />
-                <element signature="e#16653#16709#0" expanded="true" />
-                <element signature="e#16815#16872#0" expanded="true" />
-                <element signature="e#17352#17400#0" expanded="true" />
-                <element signature="e#19440#19491#0" expanded="true" />
-                <element signature="e#19752#19802#0" expanded="true" />
+                <element signature="e#15939#15995#0" expanded="true" />
+                <element signature="e#16117#16173#0" expanded="true" />
+                <element signature="e#16295#16351#0" expanded="true" />
+                <element signature="e#16473#16529#0" expanded="true" />
+                <element signature="e#16651#16707#0" expanded="true" />
+                <element signature="e#16813#16870#0" expanded="true" />
+                <element signature="e#17350#17398#0" expanded="true" />
+                <element signature="e#19438#19489#0" expanded="true" />
+                <element signature="e#19750#19800#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/bean/AutoBean.java">
+      <file leaf-file-name="TraxiMainActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/TraxiMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5565">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
+            <state vertical-scroll-proportion="1.1790394" vertical-offset="0" max-vertical-offset="1245">
+              <caret line="70" column="98" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Datos.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/paginas/Datos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
+              <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_datos.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_datos.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.481482" vertical-offset="305" max-vertical-offset="1305">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentPagerAdapterDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/FragmentPagerAdapterDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1050">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -991,6 +1014,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/DatosAuto.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/paginas/Datos.java" />
       </list>
     </option>
   </component>
@@ -1195,6 +1219,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="paginador" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traxi" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="traxi" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buscarplaca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paginador" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paginas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1470,20 +1524,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/bean/ViajeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/emergencia/Emergencia_activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/paginas/termometro/ShieldView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1717,13 +1757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/paginas/Datos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39893618" vertical-offset="0" max-vertical-offset="0">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/paginas/Comentarios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9840425" vertical-offset="0" max-vertical-offset="0">
@@ -1795,14 +1828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/TraxiMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2576792" vertical-offset="659" max-vertical-offset="1245">
-          <caret line="70" column="98" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37542662" vertical-offset="95" max-vertical-offset="5790">
@@ -1829,7 +1854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/bean/AutoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5565">
+        <state vertical-scroll-proportion="0.2183406" vertical-offset="0" max-vertical-offset="5565">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
@@ -1837,16 +1862,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/BuscaPlacaTexto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-42.115383" vertical-offset="0" max-vertical-offset="8340">
+        <state vertical-scroll-proportion="0.4311649" vertical-offset="810" max-vertical-offset="8340">
           <caret line="120" column="38" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/FragmentPagerAdapterDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1050">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_datos.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.481482" vertical-offset="305" max-vertical-offset="1305">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/paginas/Datos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
+          <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/buscarplaca/paginador/DatosAuto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3055553" vertical-offset="5694" max-vertical-offset="7935">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state vertical-scroll-proportion="128.42308" vertical-offset="5244" max-vertical-offset="7935">
+          <caret line="130" column="86" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3562#3611#0" expanded="true" />
@@ -1862,16 +1914,24 @@
             <element signature="e#13452#13517#0" expanded="true" />
             <element signature="e#15214#15260#0" expanded="true" />
             <element signature="e#15439#15485#0" expanded="true" />
-            <element signature="e#15941#15997#0" expanded="true" />
-            <element signature="e#16119#16175#0" expanded="true" />
-            <element signature="e#16297#16353#0" expanded="true" />
-            <element signature="e#16475#16531#0" expanded="true" />
-            <element signature="e#16653#16709#0" expanded="true" />
-            <element signature="e#16815#16872#0" expanded="true" />
-            <element signature="e#17352#17400#0" expanded="true" />
-            <element signature="e#19440#19491#0" expanded="true" />
-            <element signature="e#19752#19802#0" expanded="true" />
+            <element signature="e#15939#15995#0" expanded="true" />
+            <element signature="e#16117#16173#0" expanded="true" />
+            <element signature="e#16295#16351#0" expanded="true" />
+            <element signature="e#16473#16529#0" expanded="true" />
+            <element signature="e#16651#16707#0" expanded="true" />
+            <element signature="e#16813#16870#0" expanded="true" />
+            <element signature="e#17350#17398#0" expanded="true" />
+            <element signature="e#19438#19489#0" expanded="true" />
+            <element signature="e#19750#19800#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/citydevs/traxi/TraxiMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1790394" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="70" column="98" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
