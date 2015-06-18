@@ -231,15 +231,16 @@ Voy en el taxi con placas: </string>
     <string name="prefKeyResetQuests">resetQuests</string>
     <string name="prefKeyResetQuests_titulo">Acerca de</string>
     <string name="prefKeyResetQuests_subtitulo">TRAXI</string>
-    <string name="prefKeyResetQuests_texto">Aplicación realizada dentro del programa CÓDIGO.CDMX\n\n
-        Desarrollador Android:\n
+    <string name="prefKeyResetQuests_texto">Aplicación realizada por:\n\n
         \t Mike Morán @yosoymikesaurio\n\n
-         Desarrollador IOS:\n
-        \t Carlos Castellanos @rockarloz\n\n
         Colaboradores:\n
+        \t CityDevs @CityDevs\n
+        \t Carlos Castellanos @rockarloz\n
         \t Antuan Chávez @ntuanChavez\n
         \t Sergio Beltrán @ssbeltran\n
-        \t Edgar Zavala @zace3d</string>
+        \t Edgar Zavala @zace3d
+        \n\n
+        \t Gracias a:</string>
     <string name="prefKeyResetQuests_boton">Aceptar</string>
 
     <!-- Tips -->

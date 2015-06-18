@@ -234,15 +234,15 @@
     <string name="prefKeyResetQuests">resetQuests</string>
     <string name="prefKeyResetQuests_titulo">About</string>
     <string name="prefKeyResetQuests_subtitulo">TRAXI</string>
-    <string name="prefKeyResetQuests_texto">This application was developed for CÓDIGO.CDMX\n\n
-        Android developer:\n
+    <string name="prefKeyResetQuests_texto">This application was developed by:\n\n
         \tMike Morán @yosoymikesaurio\n\n
-        IOS developer:\n
-        \tCarlos Castellanos @rockarloz\n\n
         Collaborators:\n
+        \tCityDevs @CityDevs\n
+        \tCarlos Castellanos @rockarloz\n
         \tAntuan Chávez @ntuanChavez\n
         \tSergio Beltrán @ssbeltran\n
-        \tEdgar Zavala @zace3d</string>
+        \tEdgar Zavala @zace3d\n\n
+        \tthanks to:</string>
     <string name="prefKeyResetQuests_boton">Accept</string>
 
     <!-- Tips -->
