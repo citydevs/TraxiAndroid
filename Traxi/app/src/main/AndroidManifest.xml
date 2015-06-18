@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mx.citydevs.traxi">
+    package="codigo.labplc.mx.traxi">
 
     <permission
-        android:name="mx.citydevs.traxi.permission.MAPS_RECEIVE"
+        android:name="codigo.labplc.mx.traxi.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="mx.citydevs.traxi.maps.googlev2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="codigo.labplc.mx.traxi.maps.googlev2.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -32,7 +32,7 @@
         android:required="true" />
 
     <application
-        android:name="mx.citydevs.traxi.Traxi"
+        android:name="codigo.labplc.mx.traxi.Traxi"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme" >
@@ -44,7 +44,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="mx.citydevs.traxi.TraxiMainActivity"
+            android:name="codigo.labplc.mx.traxi.TraxiMainActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -56,48 +56,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.BuscaPlacaTexto"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.BuscaPlacaTexto"
             android:configChanges="orientation"
             android:label="@string/title_activity_busca_placa"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.BuscaPlacaFoto"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.BuscaPlacaFoto"
             android:configChanges="orientation"
             android:label="@string/title_activity_busca_placa"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.paginador.DatosAuto"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.paginador.DatosAuto"
             android:configChanges="orientation"
             android:label="@string/title_activity_busca_placa"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.registro.RegistroContactosEmergenciaActivity"
+            android:name="codigo.labplc.mx.traxi.registro.RegistroContactosEmergenciaActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_busca_placa"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustResize" >
         </activity>
         <!--<activity
-            android:name="mx.citydevs.traxi.buscarplaca.paginador.paginas.Datos"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.paginador.paginas.Datos"
             android:configChanges="orientation"
             android:label="@string/title_activity_datos"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.paginador.paginas.Adeudos"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.paginador.paginas.Adeudos"
             android:label="@string/title_activity_adeudos"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.paginador.paginas.Comentarios"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.paginador.paginas.Comentarios"
             android:label="@string/title_activity_comentarios"
             android:screenOrientation="portrait" >
         </activity>-->
         <activity
-            android:name="mx.citydevs.traxi.configuracion.UserSettingActivity"
+            android:name="codigo.labplc.mx.traxi.configuracion.UserSettingActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -105,22 +105,22 @@
             android:windowSoftInputMode="adjustPan" >
         </activity>
 
-        <service android:name="mx.citydevs.traxi.services.ServicioGeolocalizacion" />
+        <service android:name="codigo.labplc.mx.traxi.services.ServicioGeolocalizacion" />
 
         <activity
-            android:name="mx.citydevs.traxi.tracking.map.Mapa_tracking"
+            android:name="codigo.labplc.mx.traxi.tracking.map.Mapa_tracking"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.califica.Califica_taxi"
+            android:name="codigo.labplc.mx.traxi.califica.Califica_taxi"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"
             android:windowSoftInputMode="stateVisible|adjustResize" >
         </activity>
 
-        <receiver android:name="mx.citydevs.traxi.panic.MyReceiver" >
+        <receiver android:name="codigo.labplc.mx.traxi.panic.MyReceiver" >
             <intent-filter >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.ACTION_SHUTDOWN" />
@@ -132,11 +132,11 @@
         </receiver>
 
         <activity
-            android:name="mx.citydevs.traxi.tracking.Activity_null"
+            android:name="codigo.labplc.mx.traxi.tracking.Activity_null"
             android:label="@string/title_activity_activity_null" >
         </activity>
         <!--<activity
-            android:name="mx.citydevs.traxi.buscarplaca.SendFoto"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.SendFoto"
             android:configChanges="orientation"
             android:label="@string/title_activity_busca_placa"
             android:screenOrientation="portrait"
@@ -153,28 +153,28 @@
             android:value="@string/facebook_id" />
 
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.tips.Tips_activity"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.tips.Tips_activity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.buscarplaca.emergencia.Emergencia_activity"
+            android:name="codigo.labplc.mx.traxi.buscarplaca.emergencia.Emergencia_activity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.dialogos.Descripcion_Escudo"
+            android:name="codigo.labplc.mx.traxi.dialogos.Descripcion_Escudo"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="mx.citydevs.traxi.historico.Historico_viajes"
+            android:name="codigo.labplc.mx.traxi.historico.Historico_viajes"
             android:configChanges="orientation"
             android:label="@string/title_activity_historico_viajes"
             android:screenOrientation="portrait"

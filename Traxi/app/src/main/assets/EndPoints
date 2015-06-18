@@ -65,7 +65,8 @@ URL: "http://datos.labplc.mx/~mikesaurio/taxi.php?act=pasajero&type=addcomentari
 							+"&horainicio="+horaInicio
 							+"&horafin="+finViaje;
 
-cdmx/api/taxis/new?id_usuario=0&calificacion=5&comentario=Bueno&placa=A05601&latitud_inicial=0.0&longitud_inicial=0.0&latitud=19.0&longitud=-99.0&horaInicio=9&horafin=10
+ https://traxi.herokuapp.com/cdmx/api/taxis/new?id_usuario=0&calificacion=5&comentario=Bueno&placa=A05601&latitud_inicial=0.0&longitud_inicial=0.0&latitud=19.0&longitud=-99.0&horaInicio=9&horafin=10
+ https://traxi.herokuapp.com/cdmx/api/taxis/new?id_usuario=100000831771046&calificacion=5.0&comentario=bueno&placa=A05601&latitud_inicial=19.53462138096196&longitud_inicial=-99.14572142578413&latitud=19.53462138096196&longitud=-99.14572142578413&horaInicio=2015-06-17+16:11:56&horafin=2015-06-17+16:12:39
 --------------------------------------------------------------------------------
 Viaje no tomado
 Metodo GET
